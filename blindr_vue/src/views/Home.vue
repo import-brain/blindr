@@ -37,7 +37,35 @@ import axios from 'axios'
 
 export default {
   name: 'Home',
+  data() {
+    return {
+      latestProducts: []
+    }
+  },
   components: {
+  },
+  mounted() {
+    this.getLatestProducts()
+  },
+  methods: {
+    getLatestProducts() {
+      axios
+        .get('/api/v1/latest-products/')
+        .then(response => {
+          this.latestProducts = response.data
+        })
+        .catch(error => {
+          console.log(error)
+        })
+    }
   }
 }
 </script>
+
+<style scoped>
+  .image {
+    margin-top: -1.25rem;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+  }
+</style>
