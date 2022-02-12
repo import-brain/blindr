@@ -10,7 +10,7 @@
     "axios": "0.25.0",
     "bulma": "0.9.3",
     "core-js": "3.20.3",
-    "vue": "3.2.29",
+    "vue": "3.2.31",
     "vue-router": "4.0.12",
     "vuex": "4.0.2"
   },
@@ -19,7 +19,7 @@
     "@vue/cli-plugin-router": "4.5.15",
     "@vue/cli-plugin-vuex": "4.5.15",
     "@vue/cli-service": "4.5.15",
-    "@vue/compiler-sfc": "3.2.29",
+    "@vue/compiler-sfc": "3.2.31",
     "sass": "1.49.7",
     "sass-loader": "12.4.0"
   }
