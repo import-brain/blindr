@@ -21,6 +21,6 @@
     "@vue/cli-service": "4.5.15",
     "@vue/compiler-sfc": "3.2.31",
     "sass": "1.49.7",
-    "sass-loader": "12.5.0"
+    "sass-loader": "12.6.0"
   }
 }
