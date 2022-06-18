@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "axios": "0.26.0",
-    "bulma": "0.9.3",
+    "bulma": "0.9.4",
     "core-js": "3.21.1",
     "vue": "3.2.31",
     "vue-router": "4.0.12",
