@@ -11,7 +11,7 @@
     "bulma": "0.9.3",
     "core-js": "3.21.1",
     "vue": "3.2.31",
-    "vue-router": "4.0.12",
+    "vue-router": "4.3.0",
     "vuex": "4.0.2"
   },
   "devDependencies": {
